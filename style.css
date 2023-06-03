@@ -1,0 +1,154 @@
+@import url('https://v1.fontapi.ir/css/Lalezar');
+@font-face {
+    font-family: 'vazir';
+    src: url(font/vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir.ttf);
+}
+
+body{
+    font-family: 'vazir',sans-serif;
+}
+/* utilities : */
+.lalezar{
+    font-family: 'lalezar';
+    font-size: 35px;
+}
+.text-center{
+    text-align: center;
+}
+.align-item-center{
+    align-items: center;
+}
+header{
+    background:#37517e ;
+}
+.navbar{
+    padding: 30px;
+    color: white;
+    letter-spacing: 10px;
+}
+.intro{
+padding: 50px;
+color:white
+}
+.title{
+    font-size: 30px;
+}
+.desc{
+    line-height: 1.5rem;
+    padding: 20px 0;
+    color: white;
+    text-align: justify;
+}
+.start-btn{
+    all: unset;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 20px;
+    font-weight: bold;
+transition: all 0.5s;
+}
+.start-btn:hover{
+    background-color: white;
+    color:#37517e ;
+}
+.section-title{
+    font-family: 'lalezar';
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+/* team */
+section{
+    padding: 15px;
+}
+.team-card{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.team-card:hover{
+    transform: scale(1.05);
+}
+.team-card-name{
+    font-size:25px;
+    color: #012970;
+    padding: 10px;
+    font-weight: bold;
+}
+.team-card-job{
+    color:#6d6d6d;
+    font-size: 16px;
+    padding: 10px;
+}
+.team-card-desc{
+    color:rgb(100, 100,100);
+    padding: 20px 20px 30px;
+    text-align: justify;
+}
+/*  */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+.col{
+    width: 100%;
+    /* flex-basis: 100%; */
+    padding: 0.5rem;
+}
+.image-fluid{
+    width: 100%;
+    height: auto;
+}
+.card{
+    border: 1px solid gray;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card-title{
+    font-weight: bold;
+    padding: 10px 10px 40px;
+}
+.divider{
+    border: none;
+    height: 1px;
+    background: lightgray;
+}
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15PX 10PX;
+}
+.card-footer button{
+    all: unset;
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 16px;
+}
+@media screen and (min-width : 700px) {
+    .col{
+        width: 33.33%;
+    }
+}
+/* footer */
+footer{
+    padding: 70px 20px;
+    color: white;
+    background-color:#37517e ;
+}
+.image{
+    width: 70px;
+    height: 100px;
+}
+.padi{
+    margin-top: 10px;
+}
